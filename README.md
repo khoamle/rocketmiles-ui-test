@@ -1,24 +1,30 @@
-# README
+# Fooda UI and mobile test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## RSpec tests for login, contact us page, sign up
 
-Things you may want to cover:
+* Test when user logs in with username and password
+* Test when user fills out contact us page
+* Test when user signs up form and submits information
+* Automate sign up and contact us page
 
-* Ruby version
 
-* System dependencies
+##  Rspec test features: iPhone 6, iPad Nexus 5x
 
-* Configuration
+* Simulate RSpec test using Capybara window resize
 
-* Database creation
+To run all RSpec tests:
 
-* Database initialization
+```bash
+rspec
+```
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Gems Used
 
-* Deployment instructions
-
-* ...
+```ruby
+gem 'capybara'
+gem 'site_prism'
+gem 'selenium-webdriver'
+gem 'chromedriver-helper'
+gem 'faker'
+```
